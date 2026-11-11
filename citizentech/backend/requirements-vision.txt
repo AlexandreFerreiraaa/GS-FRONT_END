@@ -1,0 +1,4 @@
+# Opcional: só necessário para o endpoint /visao/classificar
+tensorflow
+numpy
+pillow

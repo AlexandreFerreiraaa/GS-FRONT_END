@@ -1,0 +1,28 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      args:
+        INSTALL_VISION: "false"   # troque para "true" para ativar o modelo de fissuras
+    env_file: .env
+    environment:
+      ALLOWED_ORIGINS: http://localhost:8501
+      MODEL_PATH: /app/models/modelo.keras
+    volumes:
+      - ./models:/app/models:ro
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 10s
+      retries: 5
+
+  frontend:
+    build: ./frontend
+    environment:
+      API_URL: http://backend:8000
+    ports:
+      - "8501:8501"
+    depends_on:
+      backend:
+        condition: service_healthy
