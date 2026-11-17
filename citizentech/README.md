@@ -58,7 +58,10 @@ pytest tests
 
 ## 5. Justificativas
 ### ODS
-**PREENCHER** 1 ou 2 ODS com justificativa (sugestões: ODS 11 – Cidades e Comunidades Sustentáveis; ODS 9 – Indústria, Inovação e Infraestrutura).
+A solução se relaciona com os **Objetivos de Desenvolvimento Sustentável** da Agenda 2030 da ONU:
+
+- **ODS 11 – Cidades e Comunidades Sustentáveis (principal):** o CitizenTech facilita o relato de buracos, fissuras, calçadas danificadas e falhas de iluminação. A IA classifica cada relato por urgência, o que ajuda a prefeitura a atender primeiro o que oferece risco a pedestres e motoristas e torna o espaço público mais seguro e acessível (meta 11.7). A orientação devolvida ao cidadão também indica o que fazer enquanto o problema não é resolvido.
+- **ODS 9 – Indústria, Inovação e Infraestrutura:** a triagem automática com LLM e o modelo de visão para fissuras usam inovação tecnológica para manter a infraestrutura urbana com mais agilidade e menor custo de inspeção (meta 9.1). O painel com categorias e urgências apoia o planejamento da manutenção.
 
 ### Decisões técnicas
 - **Streamlit:** **PREENCHER** (por que, e não Gradio).
