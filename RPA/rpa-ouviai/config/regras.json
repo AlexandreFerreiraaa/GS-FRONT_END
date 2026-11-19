@@ -1,0 +1,56 @@
+{
+  "_comentario": "Parâmetros das regras inteligentes. Ficam fora do código para o grupo ajustar sem mexer em Python.",
+  "eventos": {
+    "classes_validas": [
+      "campainha",
+      "batida_porta",
+      "ambiente"
+    ],
+    "confianca_minima": 0.6,
+    "janela_repeticao_min": 3,
+    "repeticoes_para_alerta": 3,
+    "horas_sem_evento_dispositivo_offline": 24,
+    "horario_noturno": [
+      22,
+      6
+    ]
+  },
+  "triagem": {
+    "confianca_minima_modelo": 0.45,
+    "palavras_emergencia": [
+      "socorro",
+      "caí",
+      "cai no chao",
+      "caí no chão",
+      "levei um tombo",
+      "dor no peito",
+      "falta de ar",
+      "desmaiei",
+      "desmaiou",
+      "desmaio",
+      "sangrando",
+      "sangue",
+      "incendio",
+      "incêndio",
+      "fogo",
+      "cheiro de gas",
+      "cheiro de gás",
+      "nao consigo levantar",
+      "não consigo levantar",
+      "ajuda urgente",
+      "ladrao",
+      "ladrão",
+      "forçando a porta",
+      "forcando a porta",
+      "forçando minha porta",
+      "forcando minha porta"
+    ],
+    "orientacao_emergencia": "Ligue 192 (SAMU), 193 (Bombeiros) ou 190 (Polícia). O robô não substitui serviços de emergência."
+  },
+  "rede": {
+    "timeout_s": 10,
+    "tentativas": 3,
+    "espera_inicial_s": 1.0,
+    "fator_backoff": 2.0
+  }
+}

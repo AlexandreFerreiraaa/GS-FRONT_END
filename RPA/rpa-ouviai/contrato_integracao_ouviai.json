@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/grupo-ouviai/contrato_integracao_ouviai.json",
+  "title": "Contrato de integração OuviAí",
+  "description": "Formato dos dados trocados entre as partes do OuviAí (GS 2026.2 CitizenTech): app IoT (Edge Impulse), API FastAPI do Front-end, assistente de voz (PLN), RAG (GenAI) e Robô Cuidador (RPA). Quem produz um dado segue o schema; quem consome valida com ele. Todos os exemplos são sintéticos. Datas em ISO 8601, horário local de São Paulo, sem fuso (ex.: 2026-11-09T14:10:00).",
+  "version": "1.0.0",
+  "x-responsaveis": {
+    "evento_som": "Produz: app IoT / API FastAPI (GET /events). Consome: Robô RPA, dashboard do Front-end.",
+    "pedido_cidadao": "Produz: assistente de voz (PLN) e Front-end. Consome: Robô RPA (triagem).",
+    "trecho_base": "Produz: Robô RPA (saida/base_conhecimento/*.jsonl, uma linha por trecho). Consome: RAG do GenAI e assistente de voz.",
+    "aviso_reindexacao": "Produz: Robô RPA (saida/base_conhecimento/reindexar.json). Consome: RAG, que só reindexa as fontes listadas."
+  },
+  "type": "object",
+  "properties": {
+    "eventos": { "type": "array", "items": { "$ref": "#/$defs/evento_som" } },
+    "pedidos": { "type": "array", "items": { "$ref": "#/$defs/pedido_cidadao" } },
+    "trechos": { "type": "array", "items": { "$ref": "#/$defs/trecho_base" } },
+    "reindexacao": { "$ref": "#/$defs/aviso_reindexacao" }
+  },
+  "$defs": {
+    "evento_som": {
+      "title": "Evento sonoro detectado pelo OuviAí",
+      "description": "Uma detecção do classificador de áudio (MFE + CNN). GET /events deve devolver uma LISTA desses objetos. Exportação em CSV usa as mesmas colunas, nesta ordem: momento,classe,confianca,dispositivo.",
+      "type": "object",
+      "required": ["momento", "classe", "confianca", "dispositivo"],
+      "additionalProperties": true,
+      "properties": {
+        "momento": { "type": "string", "format": "date-time", "description": "Quando o som foi detectado." },
+        "classe": { "type": "string", "enum": ["campainha", "batida_porta", "ambiente"], "description": "Mesmos nomes das classes treinadas no Edge Impulse, em minúsculas e com _ no lugar de espaço." },
+        "confianca": { "type": "number", "minimum": 0, "maximum": 1, "description": "Probabilidade da classe vencedora (0 a 1, não percentual). Abaixo de 0.60 o robô registra como incerto e não gera alerta." },
+        "dispositivo": { "type": "string", "minLength": 1, "maxLength": 40, "description": "Apelido do celular, sem nome real nem telefone. Ex.: celular-dona-lucia." }
+      }
+    },
+    "pedido_cidadao": {
+      "title": "Pedido de orientação do cidadão",
+      "description": "Uma fala transcrita (STT) ou mensagem digitada. Exportação em CSV com as colunas: momento,canal,texto. O robô mascara CPF, telefone, e-mail, CEP e NIS ao ler, mas o ideal é o assistente já mascarar antes de salvar.",
+      "type": "object",
+      "required": ["momento", "canal", "texto"],
+      "additionalProperties": true,
+      "properties": {
+        "momento": { "type": "string", "format": "date-time" },
+        "canal": { "type": "string", "enum": ["assistente_voz", "whatsapp", "front_end"], "description": "Por onde o pedido chegou." },
+        "texto": { "type": "string", "maxLength": 2000, "description": "Texto do pedido. Vazio é aceito e vai para revisão humana (indica falha de transcrição)." }
+      }
+    },
+    "trecho_base": {
+      "title": "Trecho da base de conhecimento",
+      "description": "Uma linha do arquivo .jsonl gerado pelo robô para cada fonte oficial. O RAG usa 'texto' para o embedding e os demais campos como metadados para citar a fonte na resposta.",
+      "type": "object",
+      "required": ["id", "texto", "fonte", "orgao", "url", "categoria", "coletado_em", "origem"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9_]+#[0-9]{3}$", "description": "<id_da_fonte>#<número do trecho>. Estável entre execuções, pode ser usado como id no ChromaDB/FAISS." },
+        "texto": { "type": "string", "minLength": 1, "description": "Trecho limpo, com parágrafos inteiros, cerca de 900 caracteres." },
+        "fonte": { "type": "string", "description": "Título da página ou documento." },
+        "orgao": { "type": "string", "description": "Órgão que publicou (Ministério da Saúde, INSS, Planalto...)." },
+        "url": { "type": "string", "format": "uri" },
+        "categoria": { "type": "string", "enum": ["saude_auditiva", "direitos_idoso", "beneficio_bpc", "transporte"], "description": "Tema da fonte, mesmo vocabulário da triagem do robô." },
+        "coletado_em": { "type": "string", "format": "date-time" },
+        "origem": { "type": "string", "enum": ["online", "snapshot"], "description": "'snapshot' indica que o site estava fora do ar e foi usada a cópia local; o RAG pode avisar que a informação pode estar desatualizada." }
+      }
+    },
+    "aviso_reindexacao": {
+      "title": "Aviso de reindexação",
+      "description": "Lista das fontes que mudaram na última execução do robô. Lista vazia significa que nada mudou e o RAG não precisa reprocessar.",
+      "type": "object",
+      "required": ["gerado_em", "fontes"],
+      "additionalProperties": false,
+      "properties": {
+        "gerado_em": { "type": "string", "format": "date-time" },
+        "fontes": { "type": "array", "items": { "type": "string" }, "uniqueItems": true }
+      }
+    }
+  },
+  "examples": [
+    {
+      "eventos": [
+        { "momento": "2026-11-02T14:10:00", "classe": "campainha", "confianca": 0.91, "dispositivo": "celular-dona-lucia" },
+        { "momento": "2026-11-04T02:47:00", "classe": "batida_porta", "confianca": 0.86, "dispositivo": "celular-dona-lucia" },
+        { "momento": "2026-11-04T09:30:00", "classe": "ambiente", "confianca": 0.95, "dispositivo": "celular-dona-lucia" }
+      ],
+      "pedidos": [
+        { "momento": "2026-11-02T09:12:00", "canal": "assistente_voz", "texto": "como faço pra pedir o bpc minha vizinha disse que eu tenho direito" },
+        { "momento": "2026-11-03T10:02:00", "canal": "assistente_voz", "texto": "ligaram dizendo que são do inss e pediram o código que chegou no meu celular" },
+        { "momento": "2026-11-03T10:05:00", "canal": "whatsapp", "texto": "meu cpf é [CPF], eles pediram isso também, faz mal?" }
+      ],
+      "trechos": [
+        {
+          "id": "aparelho_auditivo_sus#001",
+          "texto": "Documentos que normalmente são pedidos: documento com foto, Cartão Nacional de Saúde (cartão do SUS), comprovante de residência e o encaminhamento da UBS.",
+          "fonte": "Como adquirir aparelho auditivo ou Sistema FM no SUS",
+          "orgao": "Ministério da Saúde",
+          "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-da-pessoa-com-deficiencia/faq/como-adquirir-aparelho-auditivo-ou",
+          "categoria": "saude_auditiva",
+          "coletado_em": "2026-11-08T23:30:00",
+          "origem": "snapshot"
+        }
+      ],
+      "reindexacao": { "gerado_em": "2026-11-08T23:30:00", "fontes": ["aparelho_auditivo_sus", "estatuto_pessoa_idosa", "cartilha_bpc_inss"] }
+    }
+  ]
+}

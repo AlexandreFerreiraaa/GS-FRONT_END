@@ -1,0 +1,8 @@
+# usado pelo build dos testes (contexto = citizentech/)
+.env
+.venv/
+**/__pycache__/
+**/*.pyc
+.pytest_cache/
+models/
+frontend/

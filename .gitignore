@@ -1,0 +1,16 @@
+# sistema e editor
+.DS_Store
+.claude/
+.vscode/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# segredos
+.env
+
+# o código do RPA já está descompactado em RPA/rpa-ouviai/
+RPA/*.zip
