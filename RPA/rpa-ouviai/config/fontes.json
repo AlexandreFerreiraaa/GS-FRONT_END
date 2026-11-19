@@ -1,0 +1,42 @@
+{
+  "_comentario": "Fontes oficiais monitoradas pelo robô. 'snapshot' é a cópia local usada como caminho seguro quando o site está fora do ar ou bloqueado.",
+  "fontes": [
+    {
+      "id": "aparelho_auditivo_sus",
+      "titulo": "Como adquirir aparelho auditivo ou Sistema FM no SUS",
+      "orgao": "Ministério da Saúde",
+      "url": "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/s/saude-da-pessoa-com-deficiencia/faq/como-adquirir-aparelho-auditivo-ou",
+      "categoria": "saude_auditiva",
+      "seletor": "#content-core",
+      "snapshot": "dados/snapshots/aparelho_auditivo_sus.html"
+    },
+    {
+      "id": "estatuto_pessoa_idosa",
+      "titulo": "Lei 10.741/2003 - Estatuto da Pessoa Idosa",
+      "orgao": "Planalto",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/2003/l10.741.htm",
+      "categoria": "direitos_idoso",
+      "seletor": "body",
+      "snapshot": "dados/snapshots/estatuto_pessoa_idosa.html"
+    },
+    {
+      "id": "cartilha_bpc_inss",
+      "titulo": "Cartilha BPC/LOAS (INSS)",
+      "orgao": "INSS",
+      "url": "https://www.gov.br/inss/pt-br/media/cartilha-bpc_atualizado-novembro-2024.pdf",
+      "categoria": "beneficio_bpc",
+      "seletor": null,
+      "snapshot": "dados/snapshots/cartilha_bpc_inss.html"
+    },
+    {
+      "id": "fonte_quebrada_demo",
+      "titulo": "Fonte propositalmente inválida (demonstração de falha)",
+      "orgao": "Demo",
+      "url": "https://servico-inexistente.invalid/carta-de-servicos",
+      "categoria": "transporte",
+      "seletor": "main",
+      "snapshot": "dados/snapshots/nao_existe.html",
+      "somente_demo_falhas": true
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+2026-11-18 01:24:33,464 | INFO    | robo                   | ===== Execução 20261118-012433 iniciada =====
+2026-11-18 01:24:33,464 | INFO    | robo                   | Modo: offline
+2026-11-18 01:24:33,465 | INFO    | robo.resiliencia       | ▶ Etapa: 1. Coleta de fontes oficiais
+2026-11-18 01:24:33,466 | INFO    | robo.coleta            | Fonte 'aparelho_auditivo_sus' (snapshot) mudou: 2 trechos gravados
+2026-11-18 01:24:33,467 | INFO    | robo.coleta            | Fonte 'estatuto_pessoa_idosa' (snapshot) mudou: 2 trechos gravados
+2026-11-18 01:24:33,467 | INFO    | robo.coleta            | Fonte 'cartilha_bpc_inss' (snapshot) mudou: 2 trechos gravados
+2026-11-18 01:24:33,468 | INFO    | robo.resiliencia       | ■ 1. Coleta de fontes oficiais: ok (0.00s)
+2026-11-18 01:24:33,468 | INFO    | robo.resiliencia       | ▶ Etapa: 2. Eventos sonoros e alertas
+2026-11-18 01:24:33,469 | INFO    | robo.resiliencia       | ■ 2. Eventos sonoros e alertas: ok (0.00s)
+2026-11-18 01:24:33,469 | INFO    | robo.resiliencia       | ▶ Etapa: 3. Triagem de pedidos (NLP)
+2026-11-18 01:24:33,572 | INFO    | robo.triagem           | Modelo de triagem treinado com 360 exemplos e salvo
+2026-11-18 01:24:33,607 | INFO    | robo.resiliencia       | ■ 3. Triagem de pedidos (NLP): ok (0.14s)
+2026-11-18 01:24:33,607 | INFO    | robo.resiliencia       | ▶ Etapa: 4. Relatórios (Excel + HTML)
+2026-11-18 01:24:33,660 | INFO    | robo.relatorio         | Planilha gerada: relatorio_2026-S45.xlsx
+2026-11-18 01:24:33,660 | INFO    | robo.resiliencia       | ■ 4. Relatórios (Excel + HTML): ok (0.05s)
+2026-11-18 01:24:33,660 | INFO    | robo.resiliencia       | ▶ Etapa: 5. Notificação ao cuidador
+2026-11-18 01:24:33,670 | INFO    | robo.notificacao       | SMTP não configurado: e-mail salvo em 2026-S45.eml
+2026-11-18 01:24:33,670 | INFO    | robo.resiliencia       | ■ 5. Notificação ao cuidador: ok (0.01s)
+2026-11-18 01:24:33,670 | INFO    | robo                   | ===== Execução 20261118-012433 finalizada: ok em 0.21s | 1 item(ns) para revisão humana =====

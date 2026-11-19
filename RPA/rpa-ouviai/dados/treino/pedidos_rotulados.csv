@@ -1,0 +1,361 @@
+texto,categoria
+o estatuto do idoso garante preferência no atendimento?,direitos_idoso
+"minha filha, o banco me deixou esperando horas mesmo eu tendo preferência no atendimento",direitos_idoso
+ligaram falando que sou eu que tenho dívida no gov.br,golpe_suspeito
+é verdade que o governo manda sms pedindo o número do cartão?,golpe_suspeito
+"bom dia, o bpc loas é aposentadoria?",beneficio_bpc
+estou sendo maltratada pela minha família,direitos_idoso
+por favor o loas do meu marido foi cortado,beneficio_bpc
+o bpc do meu marido foi cortado,beneficio_bpc
+"oi plano de saúde aumentou porque fiz 60 anos, pode?",direitos_idoso
+por favor me conta uma piada,fora_escopo
+"bom dia, como faço pra viajar de busão interestadual de graça",transporte_gratuidade
+"oi a pilha do aparelho auditivo acabou, o posto dá?",saude_auditiva
+por favor quero trocar meu aasi antigo,saude_auditiva
+"meu filho pega meu dinheiro sem deixar, o que eu faco",direitos_idoso
+"a pilha do aparelho auditivo acabou, o posto dá?",saude_auditiva
+como faço pra viajar de ônibus intermunicipal interestadual de graça,transporte_gratuidade
+meu ouvido zumbe e escuto pouco,saude_auditiva
+"minha filha, como planto tomate no vaso",fora_escopo
+"tenho 66 anos, posso andar de ônibus intermunicipal de graca",transporte_gratuidade
+oi quanto tempo demora pra receber o aparelho de surdez do sus,saude_auditiva
+ligaram falando que sou eu que tenho dívida no sus,golpe_suspeito
+"bom dia, assento reservado no trem é obrigatório?",transporte_gratuidade
+o posto me deixou esperando horas mesmo eu tendo atendimento prioritário,direitos_idoso
+o banco não quis me dar atendimento prioritário,direitos_idoso
+a farmácia não respeitou a fila de idoso,direitos_idoso
+meu aparelho de surdez quebrou onde eu conserto,saude_auditiva
+meu bpc foi negado o que eu faço,beneficio_bpc
+assento reservado no ônibus é obrigatório?,transporte_gratuidade
+onde denuncio abandono de idoso,direitos_idoso
+"minha filha, a pilha do aasi acabou, o posto dá?",saude_auditiva
+vai chover amanha?,fora_escopo
+oi estou sendo maltratada pela minha família,direitos_idoso
+oi vai chover amanha?,fora_escopo
+por favor quanto está o dólar,fora_escopo
+assento reservado no ônibus intermunicipal é obrigatório?,transporte_gratuidade
+minha renda conta para o benefício de prestação continuada,beneficio_bpc
+"olá, o mercado me deixou esperando horas mesmo eu tendo fila preferencial",direitos_idoso
+"olá, o benefício do idoso do meu marido foi cortado",beneficio_bpc
+quanto tempo demora pra receber o aparelho pra escutar do sus,saude_auditiva
+liguei no 135 e nao consegui pedir o benefício do idoso,beneficio_bpc
+"minha filha, é verdade que o governo manda sms pedindo o número do cartão?",golpe_suspeito
+o posto me deixou esperando horas mesmo eu tendo preferência no atendimento,direitos_idoso
+por favor qual o melhor celular pra comprar,fora_escopo
+um moço falou que é do gov.br e quer vir aqui em casa,golpe_suspeito
+"minha filha, o médico disse que eu preciso de aasi, e agora",saude_auditiva
+"olá, um moço falou que é do sus e quer vir aqui em casa",golpe_suspeito
+meu bpc foi negado o que eu faco,beneficio_bpc
+"olá, quanto está o dólar",fora_escopo
+o cartório me deixou esperando horas mesmo eu tendo fila preferencial,direitos_idoso
+como consigo um aparelho pra escutar pelo sus,saude_auditiva
+liguei no 135 e não consegui pedir o bpc,beneficio_bpc
+assento reservado no trem é obrigatório?,transporte_gratuidade
+oi qual o resultado do jogo de ontem,fora_escopo
+um senhor bateu aqui dizendo que é do gov.br e quer meus documentos,golpe_suspeito
+por favor que horas são,fora_escopo
+me ligaram do sus pedindo o número do cartão,golpe_suspeito
+"bom dia, a pilha do aasi acabou, o posto dá?",saude_auditiva
+"olá, me recomenda um filme",fora_escopo
+"olá, posto de saúde faz exame de audiometria?",saude_auditiva
+a passagem de metrô é grátis pra quem tem 65?,transporte_gratuidade
+preciso de cartão pra andar de busão sem pagar,transporte_gratuidade
+onde faço o bilhete do idoso,transporte_gratuidade
+que horas são,fora_escopo
+com quantos anos eu tenho passagem grátis no busão,transporte_gratuidade
+tenho direito a prioridade no cartório?,direitos_idoso
+"olá, pediram pix pra liberar meu gov.br",golpe_suspeito
+por favor quanto paga o benefício do idoso esse ano,beneficio_bpc
+"o médico disse que eu preciso de aparelho auditivo, e agora",saude_auditiva
+meu neto mandou mensagem de número novo pedindo dinheiro,golpe_suspeito
+oi meu aasi quebrou onde eu conserto,saude_auditiva
+"minha filha, o que diz o estatuto da pessoa idosa",direitos_idoso
+querem que eu passe o código que chegou no celular,golpe_suspeito
+onde eu peço o bpc,beneficio_bpc
+como atualizo o cadúnico pra não perder o benefício de prestação continuada,beneficio_bpc
+um senhor bateu aqui dizendo que é do sus e quer meus documentos,golpe_suspeito
+"bom dia, preciso estar no cadastro único pro benefício de prestação continuada?",beneficio_bpc
+o benefício de prestacao continuada do meu marido foi cortado,beneficio_bpc
+oi como consigo um aparelho pra escutar pelo sus,saude_auditiva
+oi quais são os direitos do idoso,direitos_idoso
+assento reservado no metrô é obrigatório?,transporte_gratuidade
+assento reservado no busão é obrigatório?,transporte_gratuidade
+"olá, tenho direito a prioridade no banco?",direitos_idoso
+quanto está o dólar,fora_escopo
+"olá, a farmácia não respeitou a fila de idoso",direitos_idoso
+me ligaram do banco pedindo o número do cartão,golpe_suspeito
+a passagem de trem é grátis pra quem tem 65?,transporte_gratuidade
+"bom dia, a pilha do aparelho de surdez acabou, o posto dá?",saude_auditiva
+"bom dia, meu vizinho idoso está sozinho e sem comida",direitos_idoso
+desconto na passagem de busão pra idoso,transporte_gratuidade
+"olá, um senhor bateu aqui dizendo que é do inss e quer meus documentos",golpe_suspeito
+"bom dia, como consigo um aparelho do ouvido pelo sus",saude_auditiva
+como atualizo o cadúnico pra não perder o benefício do idoso,beneficio_bpc
+oi é verdade que o banco manda sms pedindo meus dados?,golpe_suspeito
+por favor vai chover amanhã?,fora_escopo
+"bom dia, chegou um link no whatsapp pra atualizar meu cadastro do banco",golpe_suspeito
+"bom dia, um senhor bateu aqui dizendo que é do inss e quer meus documentos",golpe_suspeito
+preciso estar no cadastro único pro benefício de prestação continuada?,beneficio_bpc
+me conta uma piada,fora_escopo
+quero trocar meu aparelho de surdez antigo,saude_auditiva
+por favor o motorista do busão não quis me deixar passar de graça,transporte_gratuidade
+"bom dia, pediram pix pra liberar meu governo",golpe_suspeito
+"bom dia, qual a capital da franca",fora_escopo
+"minha filha, não estou escutando direito, o que faço",saude_auditiva
+"bom dia, que horas sao",fora_escopo
+oi meu aparelho de surdez quebrou onde eu conserto,saude_auditiva
+"olá, qual o resultado do jogo de ontem",fora_escopo
+"minha filha, falaram que meu aparelho auditivo é de graça mas tenho que pagar o frete",golpe_suspeito
+como faço pra viajar de trem interestadual de graça,transporte_gratuidade
+oi que horas são,fora_escopo
+quanto paga o salário do idoso esse ano,beneficio_bpc
+pediram pix pra liberar meu governo,golpe_suspeito
+"bom dia, plano de saúde aumentou porque fiz 60 anos, pode?",direitos_idoso
+oi me recomenda um filme,fora_escopo
+minha renda conta para o loas,beneficio_bpc
+me ligaram do sus pedindo o código do celular,golpe_suspeito
+"olá, qual a capital da frança",fora_escopo
+"minha filha, pediram pix pra liberar meu gov.br",golpe_suspeito
+"o médico disse que eu preciso de aparelho pra escutar, e agora",saude_auditiva
+por favor quanto tempo demora pra receber o aparelho de surdez do sus,saude_auditiva
+"a pilha do aparelho do ouvido acabou, o posto dá?",saude_auditiva
+"olá, o estatuto do idoso garante prioridade?",direitos_idoso
+o salário do idoso do meu marido foi cortado,beneficio_bpc
+qual o melhor celular pra comprar,fora_escopo
+com quantos anos eu tenho passe livre no ônibus intermunicipal,transporte_gratuidade
+o banco me deixou esperando horas mesmo eu tendo prioridade,direitos_idoso
+onde tem exame de audição de graça,saude_auditiva
+onde eu peco o benefício do idoso,beneficio_bpc
+por favor como planto tomate no vaso,fora_escopo
+oi preciso de encaminhamento pro aparelho de surdez?,saude_auditiva
+"tenho 66 anos, posso andar de lotação de graça",transporte_gratuidade
+quais são os direitos do idoso,direitos_idoso
+como faço pra pedir o benefício do idoso,beneficio_bpc
+idoso paga trem?,transporte_gratuidade
+"minha filha, me recomenda um filme",fora_escopo
+por favor como faço pra viajar de ônibus intermunicipal interestadual de graça,transporte_gratuidade
+por favor onde faço o bilhete do idoso,transporte_gratuidade
+oi um moço falou que é do gov.br e quer vir aqui em casa,golpe_suspeito
+o salário do idoso é aposentadoria?,beneficio_bpc
+onde tem exame de audicao de graca,saude_auditiva
+por favor estou sendo maltratada pela minha família,direitos_idoso
+"bom dia, desconto na passagem de ônibus pra idoso",transporte_gratuidade
+como atualizo o cadúnico pra não perder o bpc loas,beneficio_bpc
+idoso paga metrô?,transporte_gratuidade
+"bom dia, quais são os direitos do idoso",direitos_idoso
+"olá, meu ouvido zumbe e escuto pouco",saude_auditiva
+"tenho 66 anos, posso andar de ônibus intermunicipal de graça",transporte_gratuidade
+"olá, o busão não parou pra mim no ponto",transporte_gratuidade
+chegou um link no whatsapp pra atualizar meu cadastro do inss,golpe_suspeito
+"minha filha, o ônibus não parou pra mim no ponto",transporte_gratuidade
+meu aparelho pra escutar quebrou onde eu conserto,saude_auditiva
+oi o estatuto do idoso garante prioridade?,direitos_idoso
+"tenho 66 anos, posso andar de busão de graça",transporte_gratuidade
+"olá, é verdade que o inss manda sms pedindo minha senha?",golpe_suspeito
+"minha filha, toca uma música",fora_escopo
+"minha filha, meu neto mandou mensagem de número novo pedindo dinheiro",golpe_suspeito
+"bom dia, receita de bolo de fubá",fora_escopo
+o hospital me deixou esperando horas mesmo eu tendo fila preferencial,direitos_idoso
+o que é inteligência artificial,fora_escopo
+preciso de cartão pra andar de metrô sem pagar,transporte_gratuidade
+por favor meu ouvido zumbe e escuto pouco,saude_auditiva
+minha renda conta para o bpc loas,beneficio_bpc
+o lotação não parou pra mim no ponto,transporte_gratuidade
+"plano de saúde aumentou porque fiz 60 anos, pode?",direitos_idoso
+oi desconto na passagem de trem pra idoso,transporte_gratuidade
+"olá, o correio me deixou esperando horas mesmo eu tendo atendimento prioritário",direitos_idoso
+"bom dia, onde eu peco o bpc loas",beneficio_bpc
+quero trocar meu aparelho auditivo antigo,saude_auditiva
+"tenho 66 anos, posso andar de trem de graca",transporte_gratuidade
+meu aasi quebrou onde eu conserto,saude_auditiva
+me recomenda um filme,fora_escopo
+oi assento reservado no ônibus intermunicipal é obrigatório?,transporte_gratuidade
+desconto na passagem de metrô pra idoso,transporte_gratuidade
+o estatuto do idoso garante fila preferencial?,direitos_idoso
+o trem não parou pra mim no ponto,transporte_gratuidade
+"minha filha, como faço pra pedir o loas",beneficio_bpc
+vai chover amanhã?,fora_escopo
+"minha filha, quero trocar meu aparelho de surdez antigo",saude_auditiva
+"bom dia, posto de saúde faz exame de audiometria?",saude_auditiva
+por favor querem que eu passe o código que chegou no celular,golpe_suspeito
+com quantos anos eu tenho passagem grátis no metrô,transporte_gratuidade
+"olá, o estatuto do idoso garante preferência no atendimento?",direitos_idoso
+um moço falou que é do governo e quer vir aqui em casa,golpe_suspeito
+posto de saúde faz exame de audiometria?,saude_auditiva
+tenho direito a preferência no atendimento no correio?,direitos_idoso
+desconto na passagem de trem pra idoso,transporte_gratuidade
+por favor onde tem exame de audição de graça,saude_auditiva
+"bom dia, toca uma música",fora_escopo
+o benefício de prestação continuada é aposentadoria?,beneficio_bpc
+oi ligaram falando que sou eu que tenho dívida no governo,golpe_suspeito
+quanto paga o benefício de prestação continuada esse ano,beneficio_bpc
+"olá, quero saber se posso receber o benefício de prestacao continuada morando com meu filho",beneficio_bpc
+"olá, meu neto mandou mensagem de número novo pedindo dinheiro",golpe_suspeito
+"bom dia, um moço falou que é do inss e quer vir aqui em casa",golpe_suspeito
+um senhor bateu aqui dizendo que é do governo e quer meus documentos,golpe_suspeito
+minha renda conta para o salário do idoso,beneficio_bpc
+"bom dia, quanto está o dólar",fora_escopo
+"olá, meu filho pega meu dinheiro sem deixar, o que eu faco",direitos_idoso
+é verdade que o sus manda sms pedindo o número do cartão?,golpe_suspeito
+como tiro a carteirinha de idoso pro busão,transporte_gratuidade
+"minha filha, quais são os direitos do idoso",direitos_idoso
+o ônibus intermunicipal não parou pra mim no ponto,transporte_gratuidade
+meu vizinho idoso está sozinho e sem comida,direitos_idoso
+como atualizo o cadúnico pra não perder o bpc,beneficio_bpc
+a passagem de ônibus é grátis pra quem tem 65?,transporte_gratuidade
+"olá, preciso de encaminhamento pro aparelho de surdez?",saude_auditiva
+meu loas foi negado o que eu faço,beneficio_bpc
+"minha filha, meu ouvido zumbe e escuto pouco",saude_auditiva
+"minha filha, como faço pra viajar de ônibus interestadual de graça",transporte_gratuidade
+"a pilha do aasi acabou, o posto dá?",saude_auditiva
+o mercado me deixou esperando horas mesmo eu tendo fila preferencial,direitos_idoso
+por favor meu neto mandou mensagem de número novo pedindo dinheiro,golpe_suspeito
+"bom dia, qual o resultado do jogo de ontem",fora_escopo
+o banco não quis me dar fila preferencial,direitos_idoso
+"olá, que horas são",fora_escopo
+"bom dia, quem ganhou a novela",fora_escopo
+recebi mensagem dizendo que meu benefício vai ser bloqueado se eu não mandar o código do celular,golpe_suspeito
+pediram pix pra liberar meu gov.br,golpe_suspeito
+o motorista do ônibus intermunicipal não quis me deixar passar de graça,transporte_gratuidade
+preciso de cartão pra andar de ônibus intermunicipal sem pagar,transporte_gratuidade
+o estatuto do idoso garante atendimento prioritário?,direitos_idoso
+quero saber se posso receber o salário do idoso morando com meu filho,beneficio_bpc
+oi é verdade que o governo manda sms pedindo o código do celular?,golpe_suspeito
+oi como planto tomate no vaso,fora_escopo
+"minha filha, um senhor bateu aqui dizendo que é do banco e quer meus documentos",golpe_suspeito
+o banco não quis me dar preferência no atendimento,direitos_idoso
+idoso paga busão?,transporte_gratuidade
+"o médico disse que eu preciso de aparelho do ouvido, e agora",saude_auditiva
+por favor me recomenda um filme,fora_escopo
+meu salário do idoso foi negado o que eu faço,beneficio_bpc
+oi toca uma música,fora_escopo
+por favor tenho direito a prioridade no hospital?,direitos_idoso
+tenho direito a prioridade no hospital?,direitos_idoso
+"bom dia, qual a capital da frança",fora_escopo
+"bom dia, me recomenda um filme",fora_escopo
+é verdade que o governo manda sms pedindo minha senha?,golpe_suspeito
+recebi mensagem dizendo que meu benefício vai ser bloqueado se eu não mandar meus dados,golpe_suspeito
+como consigo um aasi pelo sus,saude_auditiva
+oi qual o melhor celular pra comprar,fora_escopo
+quero saber se posso receber o benefício de prestação continuada morando com meu filho,beneficio_bpc
+"minha filha, disseram que eu ganhei um prêmio e pediram meus dados",golpe_suspeito
+quero trocar meu aparelho do ouvido antigo,saude_auditiva
+preciso de encaminhamento pro aparelho do ouvido?,saude_auditiva
+"bom dia, quero trocar meu aparelho auditivo antigo",saude_auditiva
+como faço pra pedir o benefício de prestação continuada,beneficio_bpc
+quanto tempo demora pra receber o aasi do sus,saude_auditiva
+me ligaram do banco pedindo o código do celular,golpe_suspeito
+chegou um link no whatsapp pra atualizar meu cadastro do sus,golpe_suspeito
+recebi mensagem dizendo que meu benefício vai ser bloqueado se eu não mandar um pix,golpe_suspeito
+por favor como faço pra viajar de metrô interestadual de graça,transporte_gratuidade
+oi meu ouvido zumbe e escuto pouco,saude_auditiva
+"bom dia, como planto tomate no vaso",fora_escopo
+"olá, o aparelho de surdez está apitando muito",saude_auditiva
+o banco não quis me dar prioridade,direitos_idoso
+"olá, quais são os direitos do idoso",direitos_idoso
+"minha filha, liguei no 135 e não consegui pedir o bpc loas",beneficio_bpc
+por favor um moço falou que é do sus e quer vir aqui em casa,golpe_suspeito
+disseram que eu ganhei um prêmio e pediram meus dados,golpe_suspeito
+"bom dia, falaram que meu aparelho auditivo é de graça mas tenho que pagar o frete",golpe_suspeito
+desconto na passagem de lotação pra idoso,transporte_gratuidade
+"olá, estou sendo maltratada pela minha família",direitos_idoso
+"tenho 76 anos e não tenho renda, tenho direito ao bpc",beneficio_bpc
+"bom dia, ligaram falando que sou eu que tenho dívida no sus",golpe_suspeito
+"olá, quanto paga o salário do idoso esse ano",beneficio_bpc
+o posto me deixou esperando horas mesmo eu tendo prioridade,direitos_idoso
+"bom dia, qual o melhor celular pra comprar",fora_escopo
+receita de bolo de fubá,fora_escopo
+como faço pra pedir o bpc,beneficio_bpc
+"bom dia, me conta uma piada",fora_escopo
+"olá, quero trocar meu aparelho de surdez antigo",saude_auditiva
+"minha filha, qual o melhor celular pra comprar",fora_escopo
+"bom dia, vai chover amanhã?",fora_escopo
+onde eu peço o benefício de prestação continuada,beneficio_bpc
+o ônibus não parou pra mim no ponto,transporte_gratuidade
+"bom dia, o benefício de prestação continuada do meu marido foi cortado",beneficio_bpc
+assento reservado no lotacao é obrigatório?,transporte_gratuidade
+um moço falou que é do sus e quer vir aqui em casa,golpe_suspeito
+"minha filha, o aasi está apitando muito",saude_auditiva
+disseram que eu ganhei um prêmio e pediram o número do cartão,golpe_suspeito
+como tiro a carteirinha de idoso pro ônibus intermunicipal,transporte_gratuidade
+"minha filha, tenho 69 anos e não tenho renda, tenho direito ao benefício do idoso",beneficio_bpc
+por favor onde eu peço o bpc,beneficio_bpc
+qual a capital da frança,fora_escopo
+"oi meu filho pega meu dinheiro sem deixar, o que eu faco",direitos_idoso
+o estatuto do idoso garante prioridade?,direitos_idoso
+"olá, quem ganhou a novela",fora_escopo
+pediram pix pra liberar meu banco,golpe_suspeito
+por favor um moço falou que é do banco e quer vir aqui em casa,golpe_suspeito
+idoso paga ônibus?,transporte_gratuidade
+"olá, a pilha do aparelho do ouvido acabou, o posto dá?",saude_auditiva
+por favor meu aparelho auditivo quebrou onde eu conserto,saude_auditiva
+qual o resultado do jogo de ontem,fora_escopo
+"minha filha, que horas são",fora_escopo
+minha renda conta para o benefício do idoso,beneficio_bpc
+"minha filha, posto de saúde faz exame de audiometria?",saude_auditiva
+"olá, com quantos anos eu tenho gratuidade no metrô",transporte_gratuidade
+o aparelho pra escutar está apitando muito,saude_auditiva
+oi com quantos anos eu tenho passe livre no lotação,transporte_gratuidade
+liguei no 135 e não consegui pedir o benefício de prestação continuada,beneficio_bpc
+chegou um link no whatsapp pra atualizar meu cadastro do governo,golpe_suspeito
+tenho direito a atendimento prioritário no cartório?,direitos_idoso
+por favor meu loas foi negado o que eu faço,beneficio_bpc
+pediram pix pra liberar meu sus,golpe_suspeito
+oi como atualizo o cadúnico pra não perder o bpc,beneficio_bpc
+"não estou escutando direito, o que faço",saude_auditiva
+"minha filha, receita de bolo de fubá",fora_escopo
+"o médico disse que eu preciso de aparelho de surdez, e agora",saude_auditiva
+tenho direito a preferência no atendimento no hospital?,direitos_idoso
+me ajuda a fazer palavras cruzadas,fora_escopo
+quem ganhou a novela,fora_escopo
+"minha filha, tenho direito a preferência no atendimento no hospital?",direitos_idoso
+por favor toca uma música,fora_escopo
+como atualizo o cadúnico pra não perder o salário do idoso,beneficio_bpc
+o que diz o estatuto da pessoa idosa,direitos_idoso
+meu benefício de prestacao continuada foi negado o que eu faco,beneficio_bpc
+oi como atualizo o cadúnico pra não perder o benefício do idoso,beneficio_bpc
+"por favor tenho 66 anos, posso andar de busao de graca",transporte_gratuidade
+o aasi está apitando muito,saude_auditiva
+quanto tempo demora pra receber o aparelho do ouvido do sus,saude_auditiva
+um senhor bateu aqui dizendo que é do inss e quer meus documentos,golpe_suspeito
+"bom dia, um senhor bateu aqui dizendo que é do governo e quer meus documentos",golpe_suspeito
+"por favor tenho 79 anos e nao tenho renda, tenho direito ao bpc",beneficio_bpc
+"bom dia, idoso paga ônibus intermunicipal?",transporte_gratuidade
+pediram pix pra liberar meu inss,golpe_suspeito
+"olá, qual o melhor celular pra comprar",fora_escopo
+"bom dia, o motorista do trem não quis me deixar passar de graça",transporte_gratuidade
+falaram que meu aparelho auditivo é de graça mas tenho que pagar o frete,golpe_suspeito
+"minha filha, como tiro a carteirinha de idoso pro trem",transporte_gratuidade
+por favor quem ganhou a novela,fora_escopo
+o motorista do lotação não quis me deixar passar de graça,transporte_gratuidade
+onde faco o bilhete do idoso,transporte_gratuidade
+como faço pra viajar de busão interestadual de graça,transporte_gratuidade
+"minha filha, preciso estar no cadastro único pro bpc?",beneficio_bpc
+"bom dia, meu salário do idoso foi negado o que eu faco",beneficio_bpc
+quanto paga o benefício do idoso esse ano,beneficio_bpc
+"minha filha, plano de saúde aumentou porque fiz 60 anos, pode?",direitos_idoso
+tenho direito a prioridade no posto?,direitos_idoso
+o bpc é aposentadoria?,beneficio_bpc
+"meu filho pega meu dinheiro sem deixar, o que eu faço",direitos_idoso
+por favor o aparelho do ouvido está apitando muito,saude_auditiva
+o banco nao quis me dar fila preferencial,direitos_idoso
+"bom dia, quanto paga o bpc esse ano",beneficio_bpc
+por favor idoso paga lotação?,transporte_gratuidade
+quais sao os direitos do idoso,direitos_idoso
+toca uma música,fora_escopo
+por favor o que é inteligência artificial,fora_escopo
+onde eu peço o benefício do idoso,beneficio_bpc
+oi me ajuda a fazer palavras cruzadas,fora_escopo
+"o médico disse que eu preciso de aasi, e agora",saude_auditiva
+"olá, plano de saúde aumentou porque fiz 60 anos, pode?",direitos_idoso
+tenho direito a prioridade no correio?,direitos_idoso
+"bom dia, meu filho pega meu dinheiro sem deixar, o que eu faço",direitos_idoso
+oi quanto paga o loas esse ano,beneficio_bpc
+por favor onde denuncio abandono de idoso,direitos_idoso
+meu aparelho do ouvido quebrou onde eu conserto,saude_auditiva
+ligaram falando que sou eu que tenho dívida no governo,golpe_suspeito
+preciso estar no cadastro único pro bpc?,beneficio_bpc
+um moco falou que é do inss e quer vir aqui em casa,golpe_suspeito
+oi o que é inteligência artificial,fora_escopo
+preciso de encaminhamento pro aparelho pra escutar?,saude_auditiva
+como planto tomate no vaso,fora_escopo

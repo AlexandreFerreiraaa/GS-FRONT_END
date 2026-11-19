@@ -1,0 +1,125 @@
+{
+  "grupo": {
+    "disciplina": "AI for Robotic Process Automation (RPA + IA)",
+    "projeto": "Global Solution 2026.2 · CitizenTech · OuviAí",
+    "instituicao": "FIAP · Tecnólogo em Inteligência Artificial",
+    "integrantes": [
+      {
+        "nome": "Alexandre Ferreira",
+        "rm": "565626"
+      },
+      {
+        "nome": "Carlos Eduardo",
+        "rm": "555812"
+      },
+      {
+        "nome": "Filipe Melo",
+        "rm": "564571"
+      }
+    ]
+  },
+  "run_id": "20261118-012433",
+  "inicio": "2026-11-08T23:30:00",
+  "modo_offline": true,
+  "demo_falhas": false,
+  "etapas": [
+    {
+      "etapa": "1. Coleta de fontes oficiais",
+      "status": "ok",
+      "detalhes": {
+        "fontes": 3,
+        "atualizadas": 3,
+        "via_snapshot": 3,
+        "falhas": 0
+      },
+      "duracao_s": 0.003
+    },
+    {
+      "etapa": "2. Eventos sonoros e alertas",
+      "status": "ok",
+      "detalhes": {
+        "arquivos": [
+          "eventos_semana.csv"
+        ],
+        "fonte": "csv",
+        "lidos": 109,
+        "validos": 108,
+        "quarentena": 0,
+        "incertos": 2,
+        "alertas": 3
+      },
+      "duracao_s": 0.001
+    },
+    {
+      "etapa": "3. Triagem de pedidos (NLP)",
+      "status": "ok",
+      "detalhes": {
+        "pedidos": 16,
+        "dados_pessoais_mascarados": 2,
+        "emergencias": 1,
+        "revisao_humana": 1,
+        "por_categoria": {
+          "beneficio_bpc": 3,
+          "saude_auditiva": 3,
+          "golpe_suspeito": 4,
+          "transporte_gratuidade": 1,
+          "direitos_idoso": 2,
+          "fora_escopo": 2,
+          "emergencia": 1
+        }
+      },
+      "duracao_s": 0.138
+    },
+    {
+      "etapa": "4. Relatórios (Excel + HTML)",
+      "status": "ok",
+      "detalhes": {
+        "planilha": "relatorio_2026-S45.xlsx",
+        "pagina": "resumo_2026-S45.html",
+        "resumo_por": "template",
+        "indicadores": {
+          "eventos_validos": 108,
+          "campainhas": 9,
+          "batidas": 9,
+          "eventos_incertos": 2,
+          "alertas": 3,
+          "alertas_altos": 1,
+          "pedidos": 16,
+          "emergencias": 1,
+          "tema_principal": "golpe_suspeito",
+          "pedidos_por_tema": {
+            "beneficio_bpc": 3,
+            "saude_auditiva": 3,
+            "golpe_suspeito": 4,
+            "transporte_gratuidade": 1,
+            "direitos_idoso": 2,
+            "fora_escopo": 2,
+            "emergencia": 1
+          },
+          "revisao_humana": 1
+        }
+      },
+      "duracao_s": 0.053
+    },
+    {
+      "etapa": "5. Notificação ao cuidador",
+      "status": "ok",
+      "detalhes": {
+        "enviado": true,
+        "canal": "arquivo .eml (modo demonstração)",
+        "arquivo": "2026-S45.eml"
+      },
+      "duracao_s": 0.01
+    }
+  ],
+  "duracao_total_s": 0.21,
+  "revisao_humana": [
+    {
+      "tipo": "pedido_incerto",
+      "item": "pedidos_semana.csv:17",
+      "motivo": "modelo indeciso (golpe_suspeito com 24%)",
+      "acao_sugerida": "Cuidador ou atendente confirma o tema e responde"
+    }
+  ],
+  "status_geral": "ok"
+}

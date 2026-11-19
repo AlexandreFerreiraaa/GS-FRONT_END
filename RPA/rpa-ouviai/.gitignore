@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+estado/
+logs/
+saida/
+!saida/avaliacao/
+dados/entrada/*_demo_falhas.csv

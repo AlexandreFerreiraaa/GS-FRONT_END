@@ -1,0 +1,32 @@
+# Sobe tudo que tem código executável na GS a partir da raiz do repositório.
+#   docker compose up -d --build        Front-end (API + Streamlit)
+#   docker compose run --rm rpa         Robô Cuidador com a semana de demonstração
+#   docker compose run --rm testes      pytest do Front-end
+#   docker compose run --rm rpa-testes  pytest do robô
+# O Makefile tem atalhos para cada um.
+name: gs-citizentech
+
+include:
+  - citizentech/docker-compose.yml
+
+x-rpa: &rpa
+  build: ./RPA/rpa-ouviai
+  env_file:
+    - path: ./RPA/rpa-ouviai/.env
+      required: false
+  volumes:
+    - ./RPA/rpa-ouviai/saida:/app/saida
+    - ./RPA/rpa-ouviai/logs:/app/logs
+    - ./RPA/rpa-ouviai/estado:/app/estado
+
+services:
+  rpa:
+    <<: *rpa
+    profiles: ["rpa"]
+
+  rpa-testes:
+    <<: *rpa
+    profiles: ["rpa"]
+    volumes: []
+    entrypoint: ["python", "-m", "pytest", "-q"]
+    command: []
